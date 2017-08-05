@@ -3,7 +3,6 @@
 A compiler written for a stripped down version of c ([Tiny C](https://bellard.org/tcc/))
 
 # Prerequisites
-Flex, Bison
 Can be installed through apt in Ubuntu `sudo apt install flex bison` 
 
 # Usage
