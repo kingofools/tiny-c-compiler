@@ -1,5 +1,5 @@
 # tiny-c-compiler
-
+Project for Compilers Lab (CS39003).
 A compiler written for a stripped down version of c ([Tiny C](https://bellard.org/tcc/))
 
 # Prerequisites
