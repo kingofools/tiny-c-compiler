@@ -1,0 +1,230 @@
+Terminals unused in grammar
+
+   single_comment
+   multi_comment
+   auto_keyword
+   enum_keyword
+   restrict_keyword
+   unsigned_keyword
+   break_keyword
+   extern_keyword
+   return_keyword
+   void_keyword
+   case_keyword
+   float_keyword
+   short_keyword
+   volatile_keyword
+   char_keyword
+   for_keyword
+   signed_keyword
+   while_keyword
+   const_keyword
+   goto_keyword
+   sizeof_keyword
+   bool_keyword
+   continue_keyword
+   if_keyword
+   static_keyword
+   complex_keyword
+   default_keyword
+   inline_keyword
+   struct_keyword
+   imaginary_keyword
+   do_keyword
+   int_keyword
+   switch_keyword
+   double_keyword
+   long_keyword
+   typedef_keyword
+   else_keyword
+   register_keyword
+   union_keyword
+   identifier
+   integer_constant
+   float_constant
+   enumeration
+   char_constant
+   string_literal
+   val_at
+   plus_plus
+   minus_minus
+   left_shift
+   right_shift
+   less_equal
+   greater_equal
+   equal_equal
+   not_equal
+   logical_and
+   logical_or
+   ellipses
+   star_equal
+   by_equal
+   percent_equal
+   plus_equal
+   minus_equal
+   left_shift_equal
+   right_shift_equal
+   and_equal
+   bitwisenot_equal
+   or_equal
+   left_sq_bkt
+   right_sq_bkt
+   left_paren
+   right_paren
+   left_brace
+   right_brace
+   dot
+   amp
+   asterix
+   plus
+   minus
+   tilde
+   not
+   fw_slash
+   mod
+   less_than
+   more_than
+   caret
+   bit_or
+   ter_que
+   ter_colon
+   semi_colon
+   equals
+   comma
+   hash
+
+
+Grammar
+
+    0 $accept: statement $end
+
+    1 statement: %empty
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+error (256)
+single_comment (258)
+multi_comment (259)
+auto_keyword (260)
+enum_keyword (261)
+restrict_keyword (262)
+unsigned_keyword (263)
+break_keyword (264)
+extern_keyword (265)
+return_keyword (266)
+void_keyword (267)
+case_keyword (268)
+float_keyword (269)
+short_keyword (270)
+volatile_keyword (271)
+char_keyword (272)
+for_keyword (273)
+signed_keyword (274)
+while_keyword (275)
+const_keyword (276)
+goto_keyword (277)
+sizeof_keyword (278)
+bool_keyword (279)
+continue_keyword (280)
+if_keyword (281)
+static_keyword (282)
+complex_keyword (283)
+default_keyword (284)
+inline_keyword (285)
+struct_keyword (286)
+imaginary_keyword (287)
+do_keyword (288)
+int_keyword (289)
+switch_keyword (290)
+double_keyword (291)
+long_keyword (292)
+typedef_keyword (293)
+else_keyword (294)
+register_keyword (295)
+union_keyword (296)
+identifier (297)
+integer_constant (298)
+float_constant (299)
+enumeration (300)
+char_constant (301)
+string_literal (302)
+val_at (303)
+plus_plus (304)
+minus_minus (305)
+left_shift (306)
+right_shift (307)
+less_equal (308)
+greater_equal (309)
+equal_equal (310)
+not_equal (311)
+logical_and (312)
+logical_or (313)
+ellipses (314)
+star_equal (315)
+by_equal (316)
+percent_equal (317)
+plus_equal (318)
+minus_equal (319)
+left_shift_equal (320)
+right_shift_equal (321)
+and_equal (322)
+bitwisenot_equal (323)
+or_equal (324)
+left_sq_bkt (325)
+right_sq_bkt (326)
+left_paren (327)
+right_paren (328)
+left_brace (329)
+right_brace (330)
+dot (331)
+amp (332)
+asterix (333)
+plus (334)
+minus (335)
+tilde (336)
+not (337)
+fw_slash (338)
+mod (339)
+less_than (340)
+more_than (341)
+caret (342)
+bit_or (343)
+ter_que (344)
+ter_colon (345)
+semi_colon (346)
+equals (347)
+comma (348)
+hash (349)
+
+
+Nonterminals, with rules where they appear
+
+$accept (95)
+    on left: 0
+statement (96)
+    on left: 1, on right: 0
+
+
+State 0
+
+    0 $accept: . statement $end
+
+    $default  reduce using rule 1 (statement)
+
+    statement  go to state 1
+
+
+State 1
+
+    0 $accept: statement . $end
+
+    $end  shift, and go to state 2
+
+
+State 2
+
+    0 $accept: statement $end .
+
+    $default  accept

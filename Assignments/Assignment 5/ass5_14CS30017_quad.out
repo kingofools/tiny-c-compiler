@@ -1,0 +1,203 @@
+   
+	    
+	   
+	   
+	 
+	 
+	  
+	 
+
+	 
+
+
+ 
+
+
+	   
+	       
+	   
+	    
+
+	  
+		  
+	
+
+	
+		
+	
+		
+	
+	 
+
+
+
+    
+	 
+	    
+	    
+	    
+	    
+	    
+	    
+	 
+
+No of parameters = 0
+<=====================Symbol Table===================>
+| 0 | main | function | null | 4 | 0 | -4 | ptr-to-ST(func)|
+| 48 | extern_function | function | null | 4 | 279 | -291 | ptr-to-ST(func)|
+<====================================================>
+
+
+
+
+<======================main===========================>
+
+No of parameters = 2
+<=====================Symbol Table===================>
+| 0 | df | int | null | 4 | 0 | 8 | null |
+| 1 | asd | double | null | 8 | 4 | 16 | null |
+| 2 | RetVal | int | null | 4 | 0 | 4 | null |
+| 3 | apples | int | 4 | 4 | 4 | -4 | null |
+| 4 | t0 | int | 4 | 4 | 8 | -8 | null |
+| 5 | ban | ptr_int | null | 4 | 12 | -12 | null |
+| 6 | c | char | 4 | 1 | 16 | -13 | null |
+| 7 | t1 | char | 4 | 1 | 17 | -14 | null |
+| 8 | d | double | 32 | 8 | 18 | -22 | null |
+| 9 | t2 | int | 32 | 4 | 26 | -26 | null |
+| 10 | e | array(10,int) | null | 40 | 34 | -66 | null |
+| 11 | t3 | int | 10 | 4 | 30 | -70 | null |
+| 12 | t11 | int | 2 | 4 | 178 | -74 | null |
+| 13 | t4 | int | 4 | 4 | 74 | -78 | null |
+| 14 | t5 | int | 3 | 4 | 78 | -82 | null |
+| 15 | g | array(1,array(2,array(3,int))) | null | 24 | 138 | -106 | null |
+| 16 | t6 | int | 1 | 4 | 130 | -110 | null |
+| 17 | t7 | int | 2 | 4 | 134 | -114 | null |
+| 18 | t8 | int | 3 | 4 | 138 | -118 | null |
+| 19 | a | char | "my_const_char" | 1 | 198 | -119 | null |
+| 20 | n | double | null | 4 | 0 | -123 | null |
+| 21 | t9 | double | null | 4 | 166 | -127 | null |
+| 22 | t10 | double | null | 4 | 170 | -131 | null |
+| 23 | b | int | 45 | 4 | 207 | -135 | null |
+| 24 | t12 | int | 1 | 4 | 182 | -139 | null |
+| 25 | t13 | null | 4 | 0 | -143 | null |
+| 26 | t14 | null | 4 | 0 | -147 | null |
+| 27 | t15 | null | 4 | 0 | -151 | null |
+| 28 | t16 | int | null | 4 | 186 | -155 | null |
+| 29 | t17 | int | 2 | 4 | 190 | -159 | null |
+| 30 | diff_func | int | null | 4 | 194 | -163 | null |
+| 31 | t18 | double | "my_const_char" | 4 | 199 | -167 | null |
+| 32 | t19 | int | 45 | 4 | 211 | -171 | null |
+| 33 | len | int | 10 | 4 | 215 | -175 | null |
+| 34 | t20 | int | 10 | 4 | 219 | -179 | null |
+| 35 | j | int | 2 | 4 | 223 | -183 | null |
+| 36 | t21 | int | 2 | 4 | 227 | -187 | null |
+| 37 | number_of_A | int | 0 | 4 | 231 | -191 | null |
+| 38 | t22 | int | 0 | 4 | 235 | -195 | null |
+| 39 | t23 | int | 10 | 4 | 239 | -199 | null |
+| 40 | t24 | int | 15 | 4 | 243 | -203 | null |
+| 41 | t25 | int | null | 4 | 247 | -207 | null |
+| 42 | t26 | int | 23 | 4 | 251 | -211 | null |
+| 43 | t27 | int | 94 | 4 | 255 | -215 | null |
+| 44 | t28 | int | 3 | 4 | 259 | -219 | null |
+| 45 | t29 | int | null | 4 | 263 | -223 | null |
+| 46 | t30 | int | 5 | 4 | 267 | -227 | null |
+| 47 | t31 | int | null | 4 | 271 | -231 | null |
+| 48 | t32 | int | 0 | 4 | 275 | -235 | null |
+<====================================================>
+
+
+
+
+<======================extern_function===========================>
+
+No of parameters = 2
+<=====================Symbol Table===================>
+| 0 | a | int | null | 4 | 0 | 8 | null |
+| 1 | b | int | null | 4 | 4 | 12 | null |
+| 2 | RetVal | int | null | 4 | 0 | 4 | null |
+| 3 | sum_of_entered_numbers | int | null | 4 | 283 | -4 | null |
+| 4 | my_shirt | double | null | 4 | 0 | -8 | null |
+| 5 | i | double | null | 4 | 0 | -12 | null |
+| 6 | count | double | null | 4 | 0 | -16 | null |
+| 7 | t33 | double | null | 4 | 287 | -20 | null |
+| 8 | t34 | double | null | 4 | 291 | -24 | null |
+| 9 | t35 | double | null | 4 | 295 | -28 | null |
+| 10 | t36 | double | null | 4 | 299 | -32 | null |
+| 11 | t37 | double | null | 4 | 303 | -36 | null |
+| 12 | t38 | double | null | 4 | 307 | -40 | null |
+| 13 | t39 | double | null | 4 | 311 | -44 | null |
+| 14 | t40 | double | null | 4 | 315 | -48 | null |
+| 15 | t41 | double | null | 4 | 319 | -52 | null |
+| 16 | t42 | double | null | 4 | 323 | -56 | null |
+| 17 | t43 | double | null | 4 | 327 | -60 | null |
+| 18 | t44 | double | null | 4 | 331 | -64 | null |
+| 19 | t45 | double | null | 4 | 335 | -68 | null |
+<====================================================>
+
+
+0 : t0 = 4
+1 : apples = t0
+2 : t1 = '4'
+3 : c = t1
+4 : t2 = 32
+5 : d = t2
+6 : t3 = 10
+7 : t4 = 4
+8 : t5 = 3
+9 : t6 = 1
+10 : t7 = 2
+11 : t8 = 3
+12 : t9 = !n
+13 : a = t9
+14 : t11 = 2
+15 : t12 = 1
+16 : t13 = t11*3
+17 : t14 = t13+t12
+18 : t15 = 4*t14
+19 : t16 = f[t15]
+20 : b = t16
+21 : t17 = 2
+22 : return t17
+23 : t18 = "my_const_char"
+24 : a = t18
+25 : t19 = 45
+26 : b = t19
+27 : t20 = 10
+28 : len = t20
+29 : t21 = 2
+30 : j = t21
+31 : t22 = 0
+32 : number_of_A = t22
+33 : t23 = 10
+34 : if b==t23 goto 36
+35 : goto 39
+36 : t24 = 15
+37 : b = t24
+38 : goto 33
+39 : t26 = 23
+40 : if t26<b goto 42
+41 : goto 48
+42 : t27 = 94
+43 : if b<t27 goto 45
+44 : goto 48
+45 : t28 = 3
+46 : b = t28
+47 : goto 50
+48 : t30 = 5
+49 : b = t30
+50 : t32 = 0
+51 : return t32
+52 : t33 = i*count
+53 : my_shirt = t33
+54 : t35 = i+count
+55 : my_shirt = t35
+56 : t37 = i-count
+57 : my_shirt = t37
+58 : t39 = i/count
+59 : my_shirt = t39
+60 : t41 = *count
+61 : t42 = i*t41
+62 : my_shirt = t42
+63 : t44 = i%count
+64 : my_shirt = t44
+65 : return sum_of_entered_numbers
